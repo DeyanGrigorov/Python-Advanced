@@ -19,23 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6147430-9865-4871-885d-b9ea015393f0" name="Default Changelist" comment="" />
+    <list default="true" id="b7ab7d96-efc6-4904-a70d-79d96b01fd28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectId" id="1jyQzbA23oVqnfiOtuDHZxdkVzu" />
+  <component name="ProjectId" id="1kBeDxRdiMdIz20rcABTdEQemIK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,16 +38,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/To_do_List" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6147430-9865-4871-885d-b9ea015393f0" name="Default Changelist" comment="" />
-      <created>1604774114803</created>
+      <changelist id="b7ab7d96-efc6-4904-a70d-79d96b01fd28" name="Default Changelist" comment="" />
+      <created>1605178295789</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604774114803</updated>
+      <updated>1605178295789</updated>
     </task>
     <servers />
   </component>
@@ -66,12 +61,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="427" y="265" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605174179090">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="427" y="265" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605174179090" />
   </component>
 </project>
