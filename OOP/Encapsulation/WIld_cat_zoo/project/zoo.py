@@ -12,7 +12,7 @@ class Zoo:
             self.animals.append(animal)
             self.__budget -= price
             return f"{animal.name} the {animal.__class__.__name__} added to the zoo"
-        elif self.__budget < price:
+        elif self.__budget <= price:
             return "Not enough budget"
         return "Not enough space for animal"
 
@@ -24,7 +24,7 @@ class Zoo:
 
     def fire_worker(self, worker_name):
         try:
-            worker = [w for w in self.workers if w.name == worker_name]
+            worker = [w for w in self.workers if w.name == worker_name][0]
             self.workers.remove(worker)
             return f"{worker_name} fired successfully"
         except IndexError:
@@ -50,11 +50,11 @@ class Zoo:
     def animals_status(self):
         lions = [a for a in self.animals if a.__class__.__name__ == 'Lion']
         tigers = [a for a in self.animals if a.__class__.__name__ == 'Tiger']
-        cheetahs  = [a for a in self.animals if a.__class__.__name__ == 'Cheetah']
+        cheetahs = [a for a in self.animals if a.__class__.__name__ == 'Cheetah']
 
         res = f"You have {len(self.animals)} animals\n"
         res += f"----- {len(lions)} Lions:\n"
-        res += '\n'.join([l.__repr__() for l in lions]) + '\n'
+        res += '\n'.join([li.__repr__() for li in lions]) + '\n'
         res += f"----- {len(tigers)} Tigers:\n"
         res += '\n'.join([t.__repr__() for t in tigers]) + '\n'
         res += f"----- {len(cheetahs)} Cheetahs:\n"
@@ -74,6 +74,3 @@ class Zoo:
         res += f'----- {len(vets)} Vets:\n'
         res += '\n'.join([v.__repr__() for v in vets])
         return res
-
-
-        
