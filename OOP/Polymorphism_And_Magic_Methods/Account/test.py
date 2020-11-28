@@ -23,7 +23,7 @@ print(acc == acc2)
 print(acc != acc2)
 acc3 = acc + acc2
 print(acc3)
-print(acc3.transactions)
+print(acc3._transactions)
 
 
 # Account of bob with starting amount: 10
