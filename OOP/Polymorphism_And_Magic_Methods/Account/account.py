@@ -55,6 +55,7 @@ class Account:
         new_acc._transactions = self._transactions + other._transactions
         return new_acc
 
+
 acc = Account('bob', 10)
 acc2 = Account('john')
 print(acc)
