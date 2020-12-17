@@ -4,7 +4,7 @@ class Room:
         self.budget = budget
         self.members_count = members_count
         self.children = []
-        # elf.expenses = 0
+        self.expenses = 0
 
     @property
     def expenses(self):
@@ -16,5 +16,9 @@ class Room:
             raise ValueError('Expenses cannot be negative')
         self._expenses = value
 
-    def calculate_expenses(self, *args):
-        pass
+    def calculate_expense(self, *args):
+        for seq in args:
+            for el in seq:
+                self.expenses += el.get_monthly_expense()
+
+

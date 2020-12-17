@@ -12,4 +12,4 @@ class YoungCoupleWithChildren(Room):
         self.appliances = [[TV(), Fridge(), Laptop(), TV(), Fridge(), Laptop()]]
         for _ in range(len(children)):
             self.appliances.append([TV(), Fridge(), Laptop()])
-        self.calculate_expenses(*self.appliances)
+        self.calculate_expense(*self.appliances, children)

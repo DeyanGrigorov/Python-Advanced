@@ -8,6 +8,6 @@ class AloneYoung(Room):
         super().__init__(family_name, budget=salary, members_count=1)
         self.room_cost = 10
         self.appliances = [TV()]
-        self.calculate_expenses(self.appliances)
+        self.calculate_expense(self.appliances)
 
 
